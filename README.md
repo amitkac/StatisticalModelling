@@ -30,7 +30,7 @@ The overall basic idea is to estimate the given distribution parameters using **
 ## Technologies
 Project is created with:
 * python: 3.x
-* Holoviews-bokeh: install with ```python $conda install -c pyviz holoviews bokeh ```
+* Holoviews-bokeh: install with ```python $conda install holoviews ```
 * Pandas: install with ```conda install pandas```
 * Scipy 
 * Numpy
@@ -38,10 +38,11 @@ Project is created with:
 ## Setup
 To run this project, download the repository to any folder. Open the folder and run the following commands from command line:
 ```
-$python3 mainCall.py -f 'path-to-the-csv-file' -c 1 -sr 3
+$python3 -W ignore mainCall.py -f 'path-to-the-csv-file' -c 1 -sr 3
 ```
 `-f` is the complete filepath,`-c` is the column number to be read ( remember python is *0 indexed* ), and 
 `-sr` is the number of rows to skip (text or header)
+`W ignore` ignoring the warning caused by division by zero errors for some distributions
 
 By default, it will read 1<sup>st</sup> column, and will skip 1<sup>st</sup> row as a header. Here is the sample cmd:
 
