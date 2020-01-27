@@ -34,7 +34,7 @@ def main():
     aicCall = aic.aic2(distDataDB)
     aicCall.returnDistData(aicCall)
     distDF = aicCall.distDF
-    distDF['data'] = distDataDB[['S21(DB)']]
+    distDF['data'] = distDataDB[['data']]
     # print(distDF.head())
 
     print('2. fitting various distributions--------------------------')
