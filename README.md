@@ -31,7 +31,7 @@ The overall basic idea is to estimate the given distribution parameters using **
 Project is created with:
 * python: 3.x
 * Holoviews-bokeh: install with ```python $conda install holoviews ```
-* Pandas: install with ```conda install pandas```
+* Pandas: install with ```$conda install pandas```
 * Scipy 
 * Numpy
 	
