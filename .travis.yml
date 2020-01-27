@@ -1,6 +1,7 @@
 language: python
 python:
   - "3.7"
+os: osx
 install:
 - pip install scipy
 - pip install hvplot
