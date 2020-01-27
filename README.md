@@ -50,7 +50,7 @@ By default, it will read 1<sup>st</sup> column, and will skip 1<sup>st</sup> row
 
 ## Sample output
 
-The output `Bokeh Plot` as an `.html` should look like the below image,  with all the distribution plots. Now, don't forget to try `Pan`, `Box Zoom`, and **my favorite** ` Wheel Zoom`.  Check out how wheel zooming the data will change all the fitted distributions, and thus removing the need to recode your data.
+The output `Bokeh Plot` as an `.html` should look like the below image,  with all the distribution plots. Now, don't forget to try `Pan`, `Box Zoom`, and **my favorite** ` Wheel Zoom`.  Check out the cool `.gif` below, where wheel zooming the data changes all the fitted distributions, and thus removing the need to recode your data.
 
 <img src= "img/out2.gif" > 
 
