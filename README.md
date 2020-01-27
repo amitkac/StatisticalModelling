@@ -13,7 +13,7 @@
 * [General info](#general-info)
 * [Prerequisites](#technologies)
 * [Setup](#setup)
-* [Sample output] (#output)
+* [Sample output](#output)
 
 ## General info
 This is a simple modular python code to statistically model any data, and check the distribution to which it fits. 
@@ -37,4 +37,4 @@ $python3 mainCall.py -f 'path-to-the-csv-file' -c 1 -sr 3
 
 By default, it will read 1<sup>st</sup> column, and will skip 1<sup>st</sup> row as a header.
 
-## Sample Output
+## Sample output
