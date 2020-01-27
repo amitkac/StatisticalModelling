@@ -18,7 +18,8 @@ class fileRead():
     @classmethod
     def csvRead(cls, self):
         print('1. reading "{}"------------------------'.format(self.fin))
-        df = pd.read_csv(self.fin, skiprows=self.skRow, usecols=[self.colNum],
+        df = pd.read_csv(self.fin, names=['data'], skiprows=self.skRow,
+                         usecols=[self.colNum], header=0,
                          dtype=np.float32)
         df = df.dropna()
         # print(df.head())
