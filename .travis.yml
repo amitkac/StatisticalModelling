@@ -6,4 +6,4 @@ install:
 - pip install hvplot
 - pip install holoviews
 - pip install pandas
-script: python3 mainCall.py -f './3_5_0.csv' -c 5 -sr 7
+script: python3 -W ignore mainCall.py -f './3_5_0.csv' -c 5 -sr 7
