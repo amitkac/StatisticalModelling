@@ -26,6 +26,23 @@ So, what exactly is Akaike Information Criteria (AIC)? especially AIC_c (AIC cor
 *  Data Science- (https://www.statisticshowto.datasciencecentral.com/akaikes-information-criterion/)
 
 The overall basic idea is to estimate the given distribution parameters using **MLE**, plot the corresponding pdf, and then find out how close is the estimated ditribution close to real distribution using the AIC metric.
+
+## Citation
+
+If you are using this repo or a part of it for your research, kindly consider citing the following paper,
+
+```
+@ARTICLE{8726308,
+  author={Kachroo, Amit and Vishwakarma, Surbhi and Dixon, Jacob N. and Abuella, Hisham and Popuri, Adithya and Abbasi, Qammer H. and Bunting, Charles F. and Jacob, Jamey D. and Ekin, Sabit},
+  journal={IEEE Access}, 
+  title={Unmanned Aerial Vehicle-to-Wearables (UAV2W) Indoor Radio Propagation Channel Measurements and Modeling}, 
+  year={2019},
+  volume={7},
+  number={},
+  pages={73741-73750},
+  doi={10.1109/ACCESS.2019.2920103}}
+
+```
 	
 ## Technologies
 Project is created with:
